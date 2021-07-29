@@ -1,0 +1,4 @@
+<!--pages/menu/menu.wxml-->
+<view>
+<button wx:for="{{buttons_list}}" bindtap="goto" data-url="{{item.url}}">{{item.name}}</button>
+</view>

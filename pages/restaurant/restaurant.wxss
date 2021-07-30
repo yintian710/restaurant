@@ -1,1 +1,9 @@
 /* pages/restaurant/restaurant.wxss */
+
+.restaurant_name{
+    /* border-top-style:dotted;
+    border-right-style:solid; */
+    border-bottom-style:solid;
+    border-bottom-color:red;
+    /* border-left-style:solid; */
+}

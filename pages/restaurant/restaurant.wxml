@@ -1,2 +1,15 @@
 <!--pages/restaurant/restaurant.wxml-->
-<text>pages/restaurant/restaurant.wxml</text>
+        <!--<text>pages/restaurant/restaurant.wxml</text>-->
+
+<view class="container">
+    <view wx:for="{{restaurants_data}}">
+        <view wx:if="{{item.name}}" class="frame">
+            <view wx:if="{{item.name}}" class="restaurant_name">
+                <text>{{item.name}}</text>
+            </view>
+            <view wx:if="{{item.name}}" class="restaurant_data">
+                <text wx:for="{{item.food}}" wx:for-item="food">{{food.}} </text>
+            </view>
+        </view>
+    </view>
+</view>

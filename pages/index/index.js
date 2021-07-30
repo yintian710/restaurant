@@ -58,12 +58,10 @@ Page({
         let user_id = wx.getStorageSync('user_id');
         if (user_id) {
             show('登陆成功');
-
             wx.navigateTo({
                 url: '/pages/menu/menu?user_id=' + user_id
             });
         }
-
         let that = this;
         wx.login({
             success: function (res) {
@@ -85,19 +83,19 @@ Page({
                 });
                 return false
             }
-        } else {
-            wx.setStorageSync('openid', openid);
-            if (!user_id) {
-                await this.get_user_id();
-            } else {
-
-                wx.navigateTo({
-                    url: '/pages/regis/regis?user_id=' + user_id
-                })
-            }
-
-            console.log(user_id, 123)
         }
+        wx.setStorageSync('openid', openid);
+        if (!user_id) {
+            await this.get_user_id();
+        } else {
+
+            wx.navigateTo({
+                url: '/pages/regis/regis?user_id=' + user_id
+            })
+        }
+
+        console.log(user_id, 123)
+
     },
     bindViewTap() {
         wx.navigateTo({

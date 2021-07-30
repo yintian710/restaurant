@@ -7,4 +7,16 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+  background-color: #2E4A62;
+}
+.frame{
+  min-width: 500rpx;
+  border-radius: 30rpx;
+  border: solid #B4B7BA 8rpx;
+  margin: 30rpx;
+}
+page{
+  min-height:100%;
+  background-color:#2E4A62;
+}
+

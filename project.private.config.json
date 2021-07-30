@@ -17,6 +17,11 @@
           "pathName": "pages/menu/menu",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/regis/regis",
+          "pathName": "pages/regis/regis",
+          "scene": null
         }
       ]
     }

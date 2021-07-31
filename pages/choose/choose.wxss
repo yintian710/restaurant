@@ -1,1 +1,8 @@
 /* pages/choose/choose.wxss */
+
+.type-btn{
+    min-width: 500rpx;
+    border-radius: 30rpx;
+    border: solid #B4B7BA 8rpx;
+    margin: 30rpx;
+}

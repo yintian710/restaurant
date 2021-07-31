@@ -3,12 +3,12 @@
 
 <view class="container">
     <view wx:for="{{restaurants_data}}">
-        <view wx:if="{{item.name}}" class="frame">
+        <view wx:if="{{item.name}}" class="frame" style="padding-left: 20rpx;padding-right: 20rpx;">
             <view wx:if="{{item.name}}" class="restaurant_name">
                 <text>{{item.name}}</text>
             </view>
             <view wx:if="{{item.name}}" class="restaurant_data">
-                <text wx:for="{{item.food}}" wx:for-item="food">{{food.}} </text>
+                <text wx:for="{{item.food}}" wx:for-item="food">{{food.name}} </text>
             </view>
         </view>
     </view>

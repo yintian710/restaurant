@@ -5,7 +5,8 @@
     "pages/menu/menu",
     "pages/restaurant/restaurant",
     "pages/choose/choose",
-    "pages/regis/regis"
+    "pages/regis/regis",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

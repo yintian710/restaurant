@@ -29,6 +29,11 @@
           "pathName": "pages/restaurant/restaurant",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/choose/choose",
+          "pathName": "pages/choose/choose",
+          "scene": null
         }
       ]
     }

@@ -10,6 +10,7 @@ Page({
             {name: '看看吃啥', url: '/pages/choose/choose'},
             {name: '我的食府', url: '/pages/restaurant/restaurant'},
             {name: '回到主页', url: '/pages/index/index'},
+            {name: '测试页面', url: '/pages/test/test'},
         ]
 
     },

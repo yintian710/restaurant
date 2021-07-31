@@ -21,6 +21,9 @@ page {
     min-height: 100%;
     background-color: #2E4A62;
 }
+text {
+    word-break:break-all;
+}
 
 .bubble {
     position: relative;

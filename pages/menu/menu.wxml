@@ -1,6 +1,6 @@
 <!--pages/menu/menu.wxml-->
 <view class="container">
     <view class="userinfo">
-<button wx:for="{{buttons_list}}" bindtap="goto" data-url="{{item.url}}" class="type-btn">{{item.name}}</button>
+        <button wx:for="{{buttons_list}}" bindtap="goto" data-url="{{item.url}}" class="type-btn">{{item.name}}</button>
     </view>
 </view>

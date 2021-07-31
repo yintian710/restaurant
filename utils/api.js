@@ -1,6 +1,6 @@
 import http from 'http.js' //引入上面封装好的请求方法
 import _http from '_http.js'
-// 获取商品的一级分类，不需要参数 
+// 获取商品的一级分类,不需要参数 
 const app = getApp();
 
 const getOPENID = (code) => {
@@ -92,7 +92,7 @@ const delete_wx_regis = (user_id) => {
     })
 };
 
-// 将方法导出，实现复用 
+// 将方法导出,实现复用 
 export default {
     get_score, daily, searchCard, drawCard, GetCardData, getOPENID, get_user_id, verify, deleteUserId: delete_wx_regis
 }

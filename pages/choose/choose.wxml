@@ -1,7 +1,10 @@
 <!--pages/choose/choose.wxml-->
 
 <view class="container">
-    <view class="userinfo">
+    <view class="text">
+        <text class="text-food">当前选择为： {{food}} </text>
+    </view>
+    <view class="button">
         <button bindtap="next" class="type-btn">下一个</button>
         <button bindtap="go" class="type-btn">就它了</button>
     </view>
